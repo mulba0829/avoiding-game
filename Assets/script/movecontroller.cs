@@ -33,7 +33,7 @@ public class movecontroller : MonoBehaviour
                                                        //이 값에 따라 Animator에 추가한 isMove의 값 결정
 
         if (x != 0 && x != transform.localScale.x)
-            transform.localScale = new Vector3(x*5,5,5); // 이동 방항에 따라 이미지 반전할 수 있도록 x축에 x 변수 값 대입
+            transform.localScale = new Vector3(x*2,2,2); // 이동 방항에 따라 이미지 반전할 수 있도록 x축에 x 변수 값 대입
     }
 
     public void Death()
